@@ -7,7 +7,15 @@
 ---------------
 
 /* View a sample of the data */
-SELECT * 
+SELECT inter_dom,
+  japanese_cate,
+  english_cate,
+  academic,
+  age,
+  stay,
+  todep,
+  tosc,
+  toas
 FROM students
 LIMIT 5
 
